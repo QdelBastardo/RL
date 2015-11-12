@@ -1,0 +1,47 @@
+html, body {
+  font-family: 'Dosis', sans-serif;
+  height : 100%;
+  width : 100%;
+}
+small {
+	font-family: 'Dosis', sans-serif;
+}
+
+body {
+	background-image : url('/pics/black.jpg');
+	background-position :center;
+	background-repeat : no-repeat;
+	background-attachment: fixed;
+}
+
+h1, h2, h3 {
+	font-family : 'Lobster', sans-serif;
+}
+
+.aDiv {
+    text-align : center;
+    border-radius : 1.5em;
+    overflow : hidden;
+    font-size : 2em;
+}
+ img, .jumbotron {
+ 	border-radius : 50%;
+ 	overflow : hidden;
+ }
+ 
+.jumbotron {
+	text-align : center;
+	color : rgb(255,255,255);
+	background-color : rgba(0, 0, 0, 0.25);
+}
+
+.words {
+	display : block;
+	background-color : rgba(0, 0, 0 ,0.5);
+	border-radius : 50%;
+}
+
+.container-fluid {
+	margin-top : 230px;
+}
+ 
